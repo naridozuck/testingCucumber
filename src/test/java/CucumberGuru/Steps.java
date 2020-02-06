@@ -70,7 +70,7 @@ public class Steps {
     @When("^Create deposit$")					
     public void Create_deposit() throws Throwable 							
     {			      
-        //Create new Customer
+        //Create deposit
     	accountcd = (driver.findElement(By.xpath("//table[@name=\"account\"]//tr[4]//td[2]"))).getText();	
         driver.findElement(By.xpath(".//input[@name='accountno']")).sendKeys(accountcd);
         driver.findElement(By.xpath(".//input[@name='ammount']")).sendKeys("30000000");

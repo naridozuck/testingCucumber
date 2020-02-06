@@ -1,5 +1,5 @@
 @test
-Feature: Reset functionality on login page of Application
+Feature: Demo Banking system
 
 Scenario: Verify new customer can be created
 

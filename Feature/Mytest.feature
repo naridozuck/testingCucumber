@@ -17,10 +17,10 @@ Scenario: Verify to create new account based on the customer just created above
 Given Open the Chrome and launch the application
 
 
-When Enter the Username and Password			
+When Create new account			
 
 
-Then Reset the credential	
+Then Check new account	
 
 @test3
 Scenario: Verify deposit funcon work fine with the account just created
@@ -28,9 +28,9 @@ Scenario: Verify deposit funcon work fine with the account just created
 Given Open the Chrome and launch the application
 
 
-When Enter the Username and Password			
+When Create deposit			
 
 
-Then Reset the credential	
+Then Check deposit	
 
 
